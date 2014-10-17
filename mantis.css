@@ -1,0 +1,93 @@
+/* clearing */
+
+nav, body {
+	margin: 0;
+}
+
+/* Navigation */
+
+nav {
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-bottom: 10px;
+	border-color: #76d5f8;
+	border-style: solid;
+	background-color: #14bcfa;
+	margin: 0;
+}
+
+ul {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: "Ubuntu", serif;
+	font-weight: lighter;
+}
+
+a:hover {
+	color: #76d5f8;
+}
+
+a:active {
+	color: blue;
+}
+
+/* Title */
+
+.title {
+	min-height: 700px;
+	background-image: url("indexback.jpg");
+	background-size: 100%;
+	color: white;
+	text-align: center;
+	margin-top: 0;
+	font-family: "Ubuntu", serif;
+	font-weight: lighter;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 100px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 30px;
+}
+
+h2 {
+	margin: -10px;
+	font-weight: lighter;
+}
+
+
+/* Footer */
+
+footer {
+	margin-top: -70px;
+	margin-left: 100px;
+	color: white;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+	font-family: "Ubuntu", serif;
+	font-weight: lighter;
+}
+

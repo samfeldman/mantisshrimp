@@ -1,0 +1,94 @@
+/* clearing */
+
+nav, body {
+	margin: 0;
+}
+
+/* Navigation */
+
+nav {
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-bottom: 10px;
+	border-color: #76d5f8;
+	border-style: solid;
+	background-color: #14bcfa;
+	margin: 0;
+}
+
+.navul {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.navul li {
+	display: inline-block;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: "Ubuntu", serif;
+	font-weight: lighter;
+}
+
+a:hover {
+	color: #76d5f8;
+}
+
+a:active {
+	color: blue;
+}
+
+/* Content */
+
+div {
+	min-height: 700px;
+	background-size: 100%;
+	background-color: #22eed0;
+	color: #127c6c;
+	text-align: center;
+	margin-top: 0;
+	font-family: "Ubuntu", serif;
+	font-weight: lighter;
+	margin-left: 0;
+	margin-bottom: -30px;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 100px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 30px;
+}
+
+h2 {
+	margin: -10px;
+	font-weight: lighter;
+}
+
+div ul {
+	text-align: center;
+	padding-top: 40px;
+	padding-left: 0;
+	list-style-type: none;
+	max-width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+div ul li {
+	margin-bottom: 30px;
+}
+
+

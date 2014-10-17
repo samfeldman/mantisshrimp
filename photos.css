@@ -1,0 +1,112 @@
+/* clearing */
+
+nav, body {
+	margin: 0;
+}
+
+/* Navigation */
+
+nav {
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-bottom: 10px;
+	border-color: #76d5f8;
+	border-style: solid;
+	background-color: #14bcfa;
+	margin: 0;
+}
+
+.navul {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.navul li {
+	display: inline-block;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: "Ubuntu", serif;
+	font-weight: lighter;
+}
+
+a:hover {
+	color: #76d5f8;
+}
+
+a:active {
+	color: blue;
+}
+
+/* Content */
+
+div {
+	min-height: 700px;
+	background-size: 100%;
+	background-color: #22eed0;
+	color: #127c6c;
+	text-align: center;
+	margin-top: 0;
+	font-family: "Ubuntu", serif;
+	font-weight: lighter;
+	margin-left: 0;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 100px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 30px;
+}
+
+h2 {
+	margin: -10px;
+	font-weight: lighter;
+}
+
+div ul {
+	padding-left: 0;
+	padding-bottom: 50px;
+	margin-bottom: 0px;
+}
+div ul li {
+	display: block;
+	text-decoration: none;
+	padding: 10px;
+	list-style-type: none;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 320px;
+
+}
+
+div ul li img {
+	max-width: 300px;
+	border-style: dashed;
+	border-color: #14bcfa;
+	border-width: 10px;
+	margin-bottom: 15px;
+	max-width: 300px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 300px;
+}
+
+
+
+
